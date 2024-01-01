@@ -5,40 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
+    <title>Selling shoes</title>
 </head>
 <body>
-    <div class=" w-fit mx-96 my-28 font-sans font-semibold border-4 border-black relative">
-        <div class="py-3 my-0 bg-gray-100 text-2xl font-bold text-center uppercase">Converse Chuck Taylor All Star Low Top</div>
-        <div class="flex justify-evenly items-center">
-            <img src="challenges.jpg" class="w-64 h-64">
-            <div class="w-72 mx-6">
-                <div class="w-64 flex justify-between items-center">
-                    <div class="font-extrabold text-2xl">$65.00</div>
-                    <div class="w-fit my-0.5 text-gray-500 mx-3 font-bold uppercase text-xs">Free shipping</div>
-                </div>
-                <div class="my-5">Ready to dress up or down, these classic canvas Chucks are an everyday wardrobe staple.</div>
-                <div class="w-fit px-4 py-0.5 uppercase bg-red-600 text-white absolute -left-9 -top-3">sale</div>
-                <a href="https://www.converse.com" class="-my-5 text-black-900 underline">More information</a>
-                <div class="w-52 my-8 flex justify-evenly">
-                    <div class="w-5 h-5 bg-red-500"></div>
-                    <div class="w-5 h-5 bg-black"></div>
-                    <div class="w-5 h-5 bg-blue-500"></div>
-                    <div class="w-5 h-5 bg-green-500"></div>
-                    <div class="w-5 h-5 bg-pink-500"></div>
-                    <div class="w-5 h-5 bg-purple-500"></div>
-                </div>
-            </div>
-            <div class="w-72 text-left">
-                <h3 class=" my-0 text-xl font-bold uppercase">Product details</h3>
-                <ul class=" mx-6 my-4 list-[square]">
-                    <li class="my-2">Lightweight, durable canvas sneaker
-                        <li class="my-2">Lightly padded footbed for added comfort
-                            <li class="my-2">Iconic Chuck Taylor ankle patch
-                            </ul>
-                        </div>
-        </div>
-                        <button class="btn w-full h-12 bg-black border-black text-white text-xl uppercase font-sans font-semibold">Add to cart</button>
+    <article class="mx-auto my-12 w-1/2 border-black border-4 font-semibold relative">
+        <HEADER class="py-3 text-2xl uppercase text-center bg-gray-100 font-bold">Converse Chuck Taylor All Star Low Top</HEADER>
+        <MAIN class="flex items-center my-0 max-2xl:flex-wrap justify-center">
+            <header class="w-2/3">
+                <img class="w-64" src="challenges.jpg">
+            </header>
+            <div class="flex max-2xl:justify-evenly max-md:flex-wrap">
+                <main class="mx-2 w-1/2 max-2xl:w-2/5">
+                    <div class="flex items-center justify-between">
+                        <div class="text-2xl my-2">$65.00</div>
+                        <div class="text-xs font-bold text-gray-500 uppercase -my-1">Free shipping</div>
                     </div>
-                </body>
+                    <div class="my-4">Ready to dress up or down, these classic canvas Chhcks are an everyday wardrobe staple.</div>
+                    <a class="underline text-black" href="https://www.converse.com/country-language-selector">More information</a>
+                    <div class="grid grid-cols-6 justify-evenly max-lg:grid-cols-3">
+                        <div class="w-5 h-5 bg-black max-lg:mx-0 my-0"></div>                  
+                        <div class="-mx-2 w-5 h-5 bg-red-600 max-lg:-mx-2 my-0"></div>              
+                        <div class="-mx-4 w-5 h-5 bg-blue-600 max-lg:-mx-4 my-0"></div>              
+                        <div class="-mx-6 w-5 h-5 bg-green-500 max-lg:mx-0 max-lg:my-2"></div>              
+                        <div class="-mx-8 w-5 h-5 bg-pink-500 max-lg:-mx-2 max-lg:my-2"></div>              
+                        <div class="-mx-10 w-5 h-5 bg-purple-500 max-lg:-mx-4 max-lg:my-2"></div>                  
+                </div>
+                <div class="bg-red-600 w-fit uppercase text-white px-4 py-1 absolute -top-3 -left-8">sale</div>
+            </main>
+            <footer class="w-1/2 max-2xl:w-2/5">
+                <h3 class="my-3 text-xl uppercase font-bold">Product details</h3>
+                <ul class="mx-6 list-[square] my-3">
+                    <li>Lightweight, durablae canvas sneaker</li>
+                    <li class="my-2">Lightly padded footbed for added comfort</li>
+                    <li>Iconic Chuck Taylor ankle patch</li>
+                </ul>
+            </footer>
+        </div>
+        </MAIN>
+        <FOOTER>
+            <button class="py-3 w-full bg-black text-white text-xl uppercase text-center" type="button">Add to cart</button>
+        </FOOTER>
+    </article>
+</body>
 </html>
